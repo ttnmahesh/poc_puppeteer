@@ -1,4 +1,4 @@
-export const username = 'admin@1st.com'
-export const password = 'admin'
+export const username = 'aaaaaa@gmail.com'
+export const password = 'xadfewrew'
 export const jestTimeOut = 15000
-export const baseUrl = 'https://prism-web.dev.1stbet.com/login'
+export const baseUrl = 'https://abc.com'
