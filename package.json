@@ -1,0 +1,29 @@
+{
+  "name": "poc_jest_puppeteer_new",
+  "version": "1.0.0",
+  "description": "jest puppeteer advance framework setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit",
+    "test:new": "jest -i --forceExit tests/e2e.test.js",
+    "testme": "jest --runInBand --detectOpenHandles --forceExit tests/coreOrganization.test.js"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Jest",
+    "Babel"
+  ],
+  "author": "Mahesh Wankhede",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.3.1",
+    "jest-puppeteer": "^6.2.0",
+    "puppeteer": "^19.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "jest-allure": "^0.1.3"
+  }
+}
